@@ -1,0 +1,63 @@
+:root{
+    /*Шрифт*/
+--main-font: "Robota";
+--secondary-font: "Raleway";
+    /*колір шрифта*/
+--accent-color:#2196F3;
+--txt-color:#212121;
+--general-color:#757575;
+    /*фоновий колір*/
+}
+body{
+    font-family: var(--main-font), sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    color:var(--general-color)
+}
+/*common styles start*/
+.header-logo {
+    font-family: var(--secondary-font)
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color:var(--accent-color);
+}
+.header-logo-color {
+    color:var(--txt-color);
+}
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+.header-link{
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--txt-color)
+}
+
+.header-link:hover,
+.header-link:focus {
+color:var(--accent-color)
+}
+
+.haeder-contact {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color:var(--general-color)
+}
+.haeder-contact:hover,
+.haeder-contact:focus {
+    color:var(--accent-color)
+}
