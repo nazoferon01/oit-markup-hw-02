@@ -61,6 +61,10 @@ body {
     color: var(--accent-color)
 }
 
+.header-list .link.current {
+    color: var(--accent-color);
+}
+
 .haeder-contact {
     font-weight: 500;
     line-height: 1.14;
