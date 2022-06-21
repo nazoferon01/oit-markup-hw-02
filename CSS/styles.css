@@ -121,9 +121,15 @@ body {
 /*Секція 2 Наші переваги*/
 .benefits-list-title {
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--txt-color)
+}
+
+.benefits-list-paragraph {
+line-height: 1.71;
+/* or 171% */
 }
 
 /*Секція 3 чим ми займаємося*/
@@ -210,6 +216,7 @@ body {
     letter-spacing: 0.06em;
     color: var(--txt-color);
 }
+
 
 .portfolio-list-category {
 font-size: 16px;
