@@ -31,7 +31,7 @@ body {
     line-height: 1.19;
     /* identical to box height */
 
-    color: var(--txt-color)
+    color: var(--txt-color);
 }
 
 .logo-color {
@@ -51,14 +51,14 @@ body {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--txt-color)
+    color: var(--txt-color);
 }
 
 .header-link:hover,
 .header-link:focus,
 .footer-contact:hover,
 .footer-contact:focus {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 .header-list .link.current {
@@ -69,12 +69,12 @@ body {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--general-color)
+    color: var(--general-color);
 }
 
 .haeder-contact:hover,
 .haeder-contact:focus {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 /*кнопки*/
@@ -124,13 +124,9 @@ body {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-    color: var(--txt-color)
+    color: var(--txt-color);
 }
 
-.benefits-list-paragraph {
-line-height: 1.71;
-/* or 171% */
-}
 
 /*Секція 3 чим ми займаємося*/
 .headlines {
@@ -174,7 +170,7 @@ line-height: 1.71;
 }
 
 .addres-link {
-    color: var(--additional--color)
+    color: var(--additional--color);
 }
 
 .footer-contact {
